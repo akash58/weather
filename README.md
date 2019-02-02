@@ -35,9 +35,3 @@ yarn run build
 ```bash
 yarn run lint
 ```
-
-## Code/Live
-
-- [Live](https://maciejploskonka.github.io/weather/dist/)
-
-- [Code](https://github.com/maciejploskonka/weather)
