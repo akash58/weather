@@ -15,23 +15,23 @@ Check weather and forecast in every place!
 ## Project setup
 
 ```bash
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 
 ```bash
-yarn run serve
+npm run serve
 ```
 
 ### Compiles and minifies for production
 
 ```bash
-yarn run build
+npm run build
 ```
 
 ### Lints and fixes files
 
 ```bash
-yarn run lint
+npm run lint
 ```
