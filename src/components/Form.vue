@@ -6,7 +6,7 @@
         <form class="form" id="form">
           <div class="input-wrapper">
             <label class="input-label" for="name">Add New Location</label>
-            <input class="input" placeholder="Type City name" type="text" name="city" required autocomplete="off" ref="input" v-model="inputValue">
+            <input class="input" placeholder="Type City name" type="text" name="city" required autocomplete="on" ref="input" v-model="inputValue">
             <div class="btn-wrapper">
               <button class="add-city-btn" @click.prevent="getWeather">Add</button>
               <button class="cancel-btn" @click.prevent="toggleForm">Cancel</button>
@@ -73,7 +73,7 @@ export default {
     margin: 0.5rem;
     padding: 1rem 0;
     box-shadow: -3px 3px 4px 0px rgba(0, 0, 0, 0.5);
-    background: #777777;
+    background: #03a9f4;
     color: #ffffff;
     text-align: center;
     cursor: pointer;
